@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:card_view="http://schemas.android.com/tools"
+	android:layout_centerInParent="true"
+	android:gravity="center_horizontal"
+	android:paddingTop="10dp"
+	android:background="@drawable/where_flame2">
+
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:layout_above="@+id/slotReels"
+        android:orientation="horizontal">
+    <TextView
+        android:id="@+id/resultTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/result_text"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/slide_desc" />
+    </LinearLayout>
+
+
+	<View
+		android:id="@+id/thickLine1"
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:gravity="center_horizontal"
+		android:layout_marginTop="30dp"
+		android:background="@drawable/where_flame2"/>
+
+
+    <LinearLayout
+        android:id="@+id/slotReels"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/thickLine1"
+		android:layout_centerInParent="true"
+        android:orientation="horizontal"
+		android:gravity="center_horizontal">
+
+		<slotgames.shihzamanapp.com.WheelView
+		    android:id="@+id/wheel1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"/>
+
+		<slotgames.shihzamanapp.com.WheelView
+		    android:id="@+id/wheel2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"/>
+
+		<slotgames.shihzamanapp.com.WheelView
+		    android:id="@+id/wheel3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"/>							
+	
+	</LinearLayout>
+
+	<View
+	    android:id="@+id/thickLine2"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:layout_below="@id/slotReels"
+        android:background="@drawable/where_flame2"/>
+			
+    <RelativeLayout
+        android:id="@+id/slotSpinLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+		android:layout_above="@+id/lyt_checkout"
+        android:layout_below="@id/thickLine2"
+        android:background="@drawable/where_flame2">
+
+
+		<LinearLayout
+			android:id="@+id/layout"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerInParent="true"
+			android:gravity="center_horizontal"
+			android:orientation="vertical">
+
+
+			<TextView
+				android:id="@+id/welcomeTxt"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="10dp"
+				android:text="@string/welcome_text"
+				android:textAlignment="center"
+				android:textColor="@android:color/white"
+				android:textSize="@dimen/slide_desc" />
+
+			<androidx.cardview.widget.CardView
+				android:id="@+id/cv"
+				android:layout_marginTop="10dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				app:cardCornerRadius="10dp"
+				android:layout_below="@id/welcomeTxt"
+				card_view:cardBackgroundColor="@color/available"
+				card_view:cardCornerRadius="5dp"
+				card_view:cardElevation="8sp">
+				<com.balysv.materialripple.MaterialRippleLayout
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+
+					app:mrl_rippleAlpha="0.2"
+					app:mrl_rippleColor="@color/ripple_color"
+					app:mrl_rippleHover="true"
+					app:mrl_rippleOverlay="true">
+
+					<Button
+						android:id="@+id/spin"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="10dp"
+						android:background="@color/available"
+						android:text="@string/spin"
+						android:textColor="@color/white"
+						android:textStyle="bold" />
+
+				</com.balysv.materialripple.MaterialRippleLayout>
+			</androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+		</LinearLayout>
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+	<RelativeLayout
+		android:id="@+id/lyt_checkout"
+		android:layout_width="match_parent"
+		android:layout_height="?android:attr/actionBarSize"
+		android:background="@drawable/where_flame2"
+		android:layout_alignParentBottom="true">
+	<LinearLayout
+		android:id="@+id/layout2"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_centerInParent="true"
+		android:gravity="center_horizontal"
+		android:orientation="horizontal">
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dp"
+			android:text="@string/author_text"
+			android:textColor="@android:color/white"
+			android:textAlignment="center"
+			android:textSize="@dimen/slide_desc" />
+	</LinearLayout>
+	</RelativeLayout>
+</RelativeLayout>        

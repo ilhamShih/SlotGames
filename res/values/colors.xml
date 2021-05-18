@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="button_start_color" type="color">#259b24</item>
+    <item name="button_end_color" type="color">#2baf2b</item>
+    <item name="button_pressed_color" type="color">#0d5302</item>
+    <item name="button_disabled_color" type="color">#9e9e9e</item>
+    <color name="ripple_color">#dfdfdf</color>
+    <color name="available">#ef6c00</color>
+    <color name="white">#ffffff</color>
+    <color name="sold">#767676</color>
+    <item name="bg_screen" type="color">#ffffff</item>
+
+
+
+
+
+    <!--app main color-->
+    <color name="colorPrimaryDark">#272727</color>
+    <color name="colorPrimary">#292679</color>
+    <color name="colorAccent">#292679</color>
+    <color name="colorAccent2">#6e6c96</color>
+    <!--other color-->
+    <color name="txt_price_color">#552731</color>
+    <color name="txt">#f7f6f7</color>
+
+    <color name="ripple_color2">#c6c6c6</color>
+    <color name="green">#0ecf48</color>
+    <color name="black">#000000</color>
+    <color name="grey">#999999</color>
+    <color name="grey_soft">#ededed</color>
+    <color name="separator">#efefef</color>
+
+    <color name="gold">#41fff200</color>
+    <color name="hint">#767676</color>
+
+    <color name="sold2">#484848</color>
+
+    <color name="sold4">#5f000000</color>
+    <color name="sold6">#87000000</color>
+    <color name="sold5">#78000000</color>
+    <!-- User -->
+    <color name="bg_login">#26ae90</color>
+    <color name="bg_register">#2e3237</color>
+    <color name="bg_main">#292679</color>
+    <color name="input_login">#222222</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="input_register">#26ae90</color>
+    <color name="input_register_bg">#3b4148</color>
+    <color name="input_register_hint">#5e6266</color>
+    <color name="btn_login">#26ae90</color>
+    <color name="btn_login_bg">#eceef1</color>
+    <color name="lbl_name">#333333</color>
+    <color name="btn_logut_bg">#ff6861</color>
+
+    <color name="new_">#fcfcfc</color>
+    <color name="grey_button2">#73acacac</color>
+    <color name="coll_prise">#ab0c41</color>
+
+    <color name="refresh_progress_1">#292679</color>
+    <color name="refresh_progress_2">#ef6c00</color>
+    <color name="refresh_progress_3">#26ae90</color>
+
+    <color name="no_coll">#00ffffff</color>
+</resources>

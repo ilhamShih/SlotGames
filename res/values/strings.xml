@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SlotGames</string>
+    <string name="company">shihzamanapp</string>
+    <string name="welcome_text">Крути и проверь свою Удачу!</string>
+
+    <string name="beverage_coffee">COFFEE</string>
+    <string name="banans">БАНАНЫ!!!</string>
+    <string name="big_wins">БОЛЬШОЙ КУШ!!!</string>
+
+    <string name="seven">Семёрка</string>
+    <string name="banane">Бананы</string>
+    <string name="big_win">Big win</string>
+    <string name="cherry">Вишня</string>
+    <string name="orange">Апельсин</string>
+    <string name="lemon">Лимон</string>
+    <string name="plum">Слива</string>
+
+
+    <string name="teapot">Tea Pot</string>
+    <string name="tea_strainer">Tea Strainer</string>
+    <string name="loose_tea">Loose Tea</string>
+
+    <string name="espresso_machine">Espresso Machine</string>
+    <string name="espresso_tamper">Espresso Tamper</string>
+    <string name="espresso_beans">Espresso Beans</string>
+
+    <string name="spin">Играть</string>
+    <string name="result_text">Наслаждайтесь %1$s</string>
+    <string name="try_again_text">Попробуй еще раз</string>
+
+    <string name="author_text">Shihzamanapp 2021.</string>
+
+</resources>
